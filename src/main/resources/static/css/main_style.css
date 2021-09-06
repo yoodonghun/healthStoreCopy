@@ -3,5 +3,17 @@
 #wrap {height: 1500px}
 header {height:100px}
 .mainLogo{font-size:60px}
-.top-menu{font-size:20px}
-nav {height: 50px}
+.top-menu{font-size:15px; color:#ffffff}
+
+nav {height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
+
+.imageBox{width: 1550px; height: 500px; background-color: #66c0bc}
+
+
+.partBox{width:1650px; height:200px; background-color:#ffffff}
+.middleBox{background-color:#b5a6e2; width: 450px; height:200px}
+.middleText {display: grid; place-content: center; text-align:center; font-size:30px}
+
+.bottomBox{width:1550px; height:50px;}
+.bottom-imageBox{width:1550px; height: 800px;}
+

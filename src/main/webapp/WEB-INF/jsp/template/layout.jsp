@@ -18,11 +18,11 @@
           <jsp:include page="../include/gnb.jsp" />
        </header>
        
-       <nav class="bg-warning">
-       
+        <nav>
+          <jsp:include page="../include/nav.jsp" />
        </nav>
        <section>
-       
+          <jsp:include page="../include/content.jsp" />
        </section>
    </div>
 </body>
