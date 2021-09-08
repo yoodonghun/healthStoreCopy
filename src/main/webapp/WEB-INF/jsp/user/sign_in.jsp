@@ -50,7 +50,7 @@
 	          <div class="inputBox ">
 	            <div class="d-flex justify-content-center">
 	             
-	             <a href="/user/second_main_page_view" class="text-white">
+	             <a href="/user/afterLogin_main_page_view" class="text-white">
 	             <button type="submit" class="signInBtn btn-secondary form-control">로그인</button></a>                   
                 </div>	                
 	          </div>

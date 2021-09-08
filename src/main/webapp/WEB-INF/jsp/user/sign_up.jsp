@@ -13,25 +13,57 @@
 <link rel="stylesheet" type="text/css" href="/static/css/main_style.css">
 </head>
 <body>
-   <div id="wrap">
-       <header>
-          <jsp:include page="../include/gnb.jsp" />
-       </header>
-       
-        <nav>
-          <jsp:include page="../include/nav.jsp" />
-       </nav>
-       
-       <div>
-         <div class="d-flex justify-content-center">
-             <div class="signInBox mt-4">
-                <div class="text-center display-3 mt-4">회원가입</div>
-             </div>
-          </div>
-          
-          
-       </div>
-       
-   </div>    
+	<div id="wrap">
+		<header>
+			<jsp:include page="../include/gnb.jsp" />
+		</header>
+
+		<nav>
+			<jsp:include page="../include/nav.jsp" />
+		</nav>
+
+		<div>
+			<div class="d-flex justify-content-center">
+				<div class="signUpBox mt-4">
+					<div class="signUp text-center display-4 mt-4">회원가입</div>
+				</div>
+			</div>
+			
+			<div class="d-flex justify-content-center mt-4">
+			   <div class="signUpInputBox mt-4">
+			       <h3>아이디</h3>
+			       <input type="text" id="signUpId" class="signUpInput form-control" placeholder="아이디를 입력하세요">
+			       
+			       <h3 class="mt-4">비밀번호</h3>
+			       <input type="password" id="signUpPw" class="signUpInput form-control" placeholder="비밀번호를 입력하세요">
+			       
+			       <h3 class="mt-4">비밀번호 확인</h3>
+			       <input type="password" id="signUpCheckPw" class="signUpInput form-control" placeholder="비밀번호를 다시 입력해주세요">
+			       
+			       <h3 class="mt-4">이름</h3>
+			       <input type="text" id="userName" class="signUpInput form-control" placeholder="이름을 입력하세요">
+			       
+			       <h3 class="mt-4">이메일</h3>
+			       <input type="text" id="email" class="signUpInput form-control">
+			       		       
+			            <select id="emailDomain" class="form-control mt-2">
+                            <option>@naver.com</option>
+                            <option>@nate.com</option>
+                            <option>@google.com</option>
+                            <option>@daum.net</option>
+                            <option>직접 입력</option>
+                        </select>
+                        
+                   <a href="/user/sign_in_view"><button type="submit" class="signupBtn form-control text-white mt-4">
+                   가입하기</button></a>
+			   </div>
+			</div>
+			
+			
+			
+			
+		</div>
+
+	</div>
 </body>
 </html>
