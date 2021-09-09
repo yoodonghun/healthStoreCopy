@@ -1,5 +1,9 @@
 package com.healthStore.user;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +15,9 @@ import com.healthStore.user.bo.UserBO;
 @RequestMapping("/user")
 @Controller
 public class UserController {
+	
+	@Autowired
+	private UserBO userBO;
 
 	@RequestMapping("/main_page_view")
 	public String main() {
@@ -48,7 +55,18 @@ public class UserController {
 			@RequestParam("email") String email) {
 		
 		String encryptPassword = EncryptUtils.md5(password);
-		UserBO.insert(loginId, password, name, email);
+		userBO.insertUser(loginId, encryptPassword, name, email);
+		
+		return "redirect:/user/sign_in_view";
+	}
+	
+	@RequestMapping("/sign_out")
+	public String signOut(HttpServletRequest request) {
+		//로그아웃
+		HttpSession session = request.getSession();
+		session.removeAttribute("userLoginId");
+		session.removeAttribute("userName");
+		session.removeAttribute("userId");
 		
 		return "redirect:/user/sign_in_view";
 	}

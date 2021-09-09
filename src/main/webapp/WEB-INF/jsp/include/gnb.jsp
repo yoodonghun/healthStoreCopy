@@ -25,13 +25,13 @@
 	<nav class="top-menu d-flex justify-content-end col-4 mt-5">
 		<ul class="nav">
 			<li class="nav-item"><a href="/user/sign_up_view"
-				class="nav-link top-menu-font text-dark">회원가입</a></li>
+				id="signUp" class="nav-link top-menu-font text-dark">회원가입</a></li>
 			<li class="nav-item"><a href="/user/sign_in_view"
-				class="nav-link top-menu-font text-dark">로그인</a></li>
+				id="signIn" class="nav-link top-menu-font text-dark">로그인</a></li>
 			<li class="nav-item"><a href="/customer_service_view"
-				class="nav-link top-menu-font text-dark">고객센터</a></li>
+				id="customer_service" class="nav-link top-menu-font text-dark">고객센터</a></li>
 			<li class="nav-item"><a href="/user/cart_view"
-				class="nav-link top-menu-font text-dark">장바구니</a></li>
+				id="cart" class="nav-link top-menu-font text-dark">장바구니</a></li>
 		</ul>
 	</nav>
 

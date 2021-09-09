@@ -33,8 +33,9 @@ nav {height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
 
 /*회원가입*/
 .signUp{font-family:serif}
-.signUpInputBox{width:550px; height:900px; }
+.signUpInputBox{width:550px; height:1000px; }
 .signUpInput{height:70px}
+#overlapCheckId {background-color:#c43c5e; }
 
 input::placeholder{font-size:20px; font-weight:bold;}
 #emailDomain{width:250px; height:70px; font-size:20px; font-weight:bold}

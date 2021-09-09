@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/healthStore?serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/health_store?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
     password: root
   mvc:
