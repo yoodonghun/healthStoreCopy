@@ -52,7 +52,7 @@
 						</div>
 
 						<h3 class="mt-4">비밀번호</h3>
-						<input type="password" id="signUpPw" name="signUpPw"
+						<input type="password" id="password" name="password"
 							class="signUpInput form-control" placeholder="비밀번호를 입력하세요">
 
 						<h3 class="mt-4">비밀번호 확인</h3>
@@ -60,20 +60,22 @@
 							class="signUpInput form-control" placeholder="비밀번호를 다시 입력해주세요">
 
 						<h3 class="mt-4">이름</h3>
-						<input type="text" id="userName" name="userName"
+						<input type="text" id="name" name="name"
 							class="signUpInput form-control" placeholder="이름을 입력하세요">
 
 						<h3 class="mt-4">이메일</h3>
 						<input type="text" id="email" name="email"
-							class="signUpInput form-control"> <select
+							class="signUpInput form-control"> 
+						<select
 							id="emailDomain" class="form-control mt-2">
 							<option>@naver.com</option>
 							<option>@nate.com</option>
 							<option>@google.com</option>
 							<option>@daum.net</option>
 							<option>직접 입력</option>
-						</select> <a href="/user/sign_in_view"><button type="submit"
-								class="signupBtn form-control text-white mt-4">가입하기</button></a>
+						</select> 
+						<button type="submit"
+								class="signupBtn form-control text-white mt-4">가입하기</button>
 					</div>
 				</div>
 			</form>	
@@ -121,6 +123,7 @@
 			e.preventDefault();
 			
 			
+			
 			let loginId = $("#loginId").val().trim();
 			if(loginId == ""){
 				alert("아이디를 입력해주세요");
@@ -138,6 +141,7 @@
 				alert("비밀번호가 일치하지 않습니다");
 				$("#password").val();
 				$("#signUpCheckPw").val();
+				return;
 				
 			}
 			
@@ -157,6 +161,8 @@
 				alert("아이디 중복확인을 해주세요");
 				return;
 			}
+			
+			
 			
 			
 			

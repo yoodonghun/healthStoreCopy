@@ -40,9 +40,9 @@ public class UserRestController {
    }
    
    
-   @PostMapping("/sign_up_for_ajax")
+   @RequestMapping("/sign_up_for_ajax")
    public Map<String, String> signUpForAjax(
-		   @Param("loginId") String loginId,
+		      @Param("loginId") String loginId,
 			  @Param("password") String password,
 			  @Param("name") String name,
 			  @Param("email") String email){
