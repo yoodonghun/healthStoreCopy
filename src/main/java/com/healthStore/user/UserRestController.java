@@ -6,9 +6,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -42,10 +40,10 @@ public class UserRestController {
    
    @RequestMapping("/sign_up_for_ajax")
    public Map<String, String> signUpForAjax(
-		      @Param("loginId") String loginId,
-			  @Param("password") String password,
-			  @Param("name") String name,
-			  @Param("email") String email){
+		      @RequestParam("loginId") String loginId,
+			  @RequestParam("password") String password,
+			  @RequestParam("name") String name,
+			  @RequestParam("email") String email){
 	   
 	   
 	   String encryptPassword = EncryptUtils.md5(password);

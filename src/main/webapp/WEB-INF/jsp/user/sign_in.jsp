@@ -30,10 +30,11 @@
              </div>
           </div>
           
+         <form method="post" id="loginForm" action="/user/afterLogin_main_page_view"> 
           <div class="d-flex justify-content-center">
              <div class="inputBox mt-4">
                 <div class="d-flex justify-content-center">
-                   <input type="text" class="inputId  col-5" placeholder="ID">
+                   <input type="text" id="loginId" name="loginId" class="inputId  col-5" placeholder="ID">
                 </div>
              </div>
           </div>
@@ -41,7 +42,7 @@
           <div class="d-flex justify-content-center">
              <div class="inputBox ">
                 <div class="d-flex justify-content-center">
-                   <input type="text" class="inputPw  col-5" placeholder="PW">
+                   <input type="password" id="password" name="password" class="inputPw  col-5" placeholder="PW">
                 </div>
              </div>
           </div>
@@ -50,8 +51,8 @@
 	          <div class="inputBox ">
 	            <div class="d-flex justify-content-center">
 	             
-	             <a href="/user/afterLogin_main_page_view" class="text-white">
-	             <button type="submit" class="signInBtn btn-secondary form-control">로그인</button></a>                   
+	             
+	             <button type="submit" class="signInBtn btn-secondary form-control">로그인</button>                   
                 </div>	                
 	          </div>
           </div>  
@@ -69,8 +70,44 @@
 	          </div>
           </div>  
           </div>
+          </form> 
        </div>
-       
+     
    </div>
 </body>
+
+<script>
+   $(document).ready(function(){
+	  $("#loginForm").submit(function(){
+		  e.preventDefault();
+		  
+		  let loginId = $("input[name=loginId]").val().trim();
+		  if(loginId == ""){
+			  alert("아이디를 입력해주세요");
+			  return;
+		  }
+		  
+		  let password = $("input[name=password]").val();
+		  if(password == ""){
+			  alert("비밀번호를 입력해주세요");
+		  }
+		  
+		  let url = $(this).attr("action");
+		  let params = $(this).serialize();
+		  
+		  $.post(url, params).done(function(data)){
+			  
+			  if(data.result == "success"){
+				  
+				  location.href = "/user/afterLogin_main_page_view"
+			  }else{
+				  alert("로그인에 실패했습니다. 다시 입력해주세요")
+			  }
+		  }
+	  }); 	
+	  
+	   	
+	   	
+   });
+</script>
 </html>
