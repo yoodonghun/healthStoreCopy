@@ -19,7 +19,7 @@
 		</header>
 
 		<nav>
-			<jsp:include page="../include/nav.jsp" />
+			
 		</nav>
 
 		<div>
@@ -82,21 +82,17 @@
 		</div>
 		
 	</div>
-</body>
-
-<script>
+	
+	<script>
 	$(document).ready(function() {
 		$("#overlapCheckId").on("click", function(e) {
-
 			var loginId = $('input[name=loginId]').val().trim();
-
 			if (loginId.length < 4) {
 				$("#idCheckLength").removeClass("d-none");
 				$("#idCheckDuplicated").addClass("d-none");
 				$("#idCheckOk").addClass("d-none");
 				return;
 			}
-
 			$.ajax({
 				url : "/user/is_duplicated_id",
 				data : {
@@ -118,7 +114,6 @@
 				}
 			});
 		});
-
 		$("#signUpForm").submit(function(e){
 			e.preventDefault();
 			
@@ -179,7 +174,7 @@
 			});
 			
 		});
-
 	});
 </script>
+</body>
 </html>
