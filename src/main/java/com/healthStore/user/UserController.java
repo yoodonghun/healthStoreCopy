@@ -88,4 +88,10 @@ public class UserController {
 		
 		return "part/abdominal";
 	}
+	
+	@RequestMapping("/warning_view")
+	public String warningView() {
+		
+		return "other/warning";
+	}
 }

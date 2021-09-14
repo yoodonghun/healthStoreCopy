@@ -33,9 +33,7 @@
 			<li class="nav-item"><a href="/user/myPage_view"
 				class="nav-link top-menu-font text-dark">My page</a></li>
 			<li class="nav-item"><a href="/user/sign_in_view"
-				class="nav-link top-menu-font text-dark">로그아웃</a></li>
-			<li class="nav-item"><a href="/user/sign_in_view"
-				class="nav-link top-menu-font text-dark">로그인</a></li>
+				class="nav-link top-menu-font text-dark">로그아웃</a></li>			
 			<li class="nav-item"><a href="/customer_service_view"
 				class="nav-link top-menu-font text-dark">고객센터</a></li>
 			<li class="nav-item"><a href="/user/cart_view"
