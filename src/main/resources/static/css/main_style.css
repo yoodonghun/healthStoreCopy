@@ -3,13 +3,13 @@
 /*상단 상세*/
 #wrap {height: 1500px}
 header {height:100px}
-.searchBox{width:400px}
+.searchBox{width:30%}
 .searchInput {width:350px; height:50px; border-left: 0px; border-top:0px; border-right:0px}
 .searchBtn{width:50px; height:50px; border-left: 0px; border-top:0px; border-right:0px; background-color:#ffffff}
-.mainLogo{font-size:60px; font-family:serif}
+.mainLogo{width: 30%; font-size:60px; font-family:serif}
 .top-menu{font-size:15px; color:#ffffff}
 
-nav {height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
+nav {width:30% ;height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
 
 .imageBox{width: 1550px; height: 700px; background-color: #66c0bc;}
 
@@ -19,11 +19,12 @@ nav {height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
 .middleText {display: grid; place-content: center; text-align:center; font-size:30px}
 
 .bottomBox{width:1550px; height:50px;}
-.bottom-imageBox{width:1550px; height: 800px;}
+.bottom-imageBox{width:1550px; height: 800px; background-color: #cccccc;}
+
 
 
 /*로그인 */
-/* .loginView {width:1200px; height:1200px; border:2px} */
+
 .loginBox {width:1000px; height:150px; font-family:serif}
 .inputBox {width:1000px; height:80px; }
 .inputId {height:50px; border-left:0px; border-top:0px; border-right:0px}
@@ -41,4 +42,7 @@ input::placeholder{font-size:20px; font-weight:bold;}
 #emailDomain{width:250px; height:70px; font-size:20px; font-weight:bold}
 .signupBtn{background-color:#c43c5e; height:70px; font-size:30px}
 a:hover{text-decoration:none}
+
+/*recommend box  */
+.detail1 {bold:3px}
 
