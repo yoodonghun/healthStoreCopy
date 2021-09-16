@@ -15,7 +15,7 @@
 	<div class="d-flex justify-content-center col-4 mt-3">
 		<div class="mainLogo">
 			<div class="display-4">
-				<a href="/user/main_page_view" class="text-dark">HIM-SSEN</a>
+				<a href="/user/afterLogin_page_view" class="text-dark">HIM-SSEN</a>
 			</div>
 
 		</div>
@@ -25,9 +25,9 @@
 	<nav class="top-menu d-flex justify-content-end col-4 mt-5">
 		<ul class="nav">
 			<li class="nav-item"><a href="/user/sign_up_view"
-				id="signUp" class="nav-link top-menu-font text-dark">회원가입</a></li>
+				id="signUp" class="nav-link top-menu-font text-dark">My page</a></li>
 			<li class="nav-item"><a href="/user/sign_in_view"
-				id="signIn" class="nav-link top-menu-font text-dark">로그인</a></li>
+				id="signIn" class="nav-link top-menu-font text-dark">로그아웃</a></li>
 			<li class="nav-item"><a href="/user/warning_view"
 				id="customer_service" class="nav-link top-menu-font text-dark">고객센터</a></li>
 			<li class="nav-item"><a href="/user/warning_view"

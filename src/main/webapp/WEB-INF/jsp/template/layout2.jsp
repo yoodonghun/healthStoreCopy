@@ -16,14 +16,14 @@
 <body>
    <div id="wrap">
        <header>
-          <jsp:include page="../include/gnb2.jsp" />
+          <jsp:include page="../include/gnb.jsp" />
        </header>
        
         <nav>
-          <jsp:include page="../include/nav2.jsp" />
+          <jsp:include page="../include/nav.jsp" />
        </nav>
        <section>
-          <jsp:include page="../include/content2.jsp" />
+          <jsp:include page="../include/content.jsp" />
        </section>
    </div>
 </body>

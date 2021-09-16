@@ -19,12 +19,6 @@ public class UserController {
 	@Autowired
 	private UserBO userBO;
 
-	@RequestMapping("/main_page_view")
-	public String main() {
-		
-		return "template/layout";
-	}
-	
 	@RequestMapping("/afterLogin_main_page_view")
 	public String afterLoginMainPageView() {
 		
@@ -95,11 +89,7 @@ public class UserController {
 		return "other/warning";
 	}
 	
-	@RequestMapping("/product_view")
-	public String detailsView() {
-		
-		return "details/product";
-	}
+	
 	
 	
 	
