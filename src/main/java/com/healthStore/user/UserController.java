@@ -95,10 +95,10 @@ public class UserController {
 		return "other/warning";
 	}
 	
-	@RequestMapping("/detail_view")
-	public String detailView() {
+	@RequestMapping("/product_view")
+	public String detailsView() {
 		
-		return "product/detail";
+		return "details/product";
 	}
 	
 	
