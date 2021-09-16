@@ -94,4 +94,13 @@ public class UserController {
 		
 		return "other/warning";
 	}
+	
+	@RequestMapping("/detail_view")
+	public String detailView() {
+		
+		return "product/detail";
+	}
+	
+	
+	
 }

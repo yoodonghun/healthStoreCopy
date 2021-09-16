@@ -22,7 +22,7 @@ nav {height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
 
 a:hover{text-decoration:none}
 
-/*upper page  */
+/*part page  */
 .upBox{width:1550px; height:350px;}
 .topPartBox{ width: 450px; height:300px; font-size: 30px}
 .productBox {width:1550px; height:600px; background-color:#c0c0c0} 

@@ -3,7 +3,7 @@
 <div>
      <div class="d-flex justify-content-center mt-4">
        <div class="imageBox">
-        <img src=https://www.10wallpaper.com/wallpaper/1920x1080/1604/Push_up_Workout-Sports_Poster_Wallpapers_1920x1080.jpg width="1550" height="700">        
+        <img src="https://www.10wallpaper.com/wallpaper/1920x1080/1604/Push_up_Workout-Sports_Poster_Wallpapers_1920x1080.jpg" width="1550" height="700">        
        </div> 
      </div>
      
@@ -11,7 +11,7 @@
        <div class="partBox d-flex justify-content-around  mt-4">
           <div class="middleBox">
 	           <a href="/user/himssen_upperBody_view" class="middleText text-dark">
-	           <img src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/bO8Z/image/QzCUgkNB7j7jgBDyXDs2UZTbjgU.jpg"  alt="상체운동 이미지" width="450" height="200">
+	           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjn9k72FiOHd2vVaxn18bSFySFtYrpERXAkw&usqp=CAU" alt="상체운동 이미지" width="450" height="200">
 	           상체 운동</a>	           
           </div>
         
@@ -42,37 +42,31 @@
        <div>
 	       <div class="d-flex justify-content-center">
 	        
-				<div class="bottom-imageBox d-flex justify-content-between">
-					<div class="product1">
-						<img src="https://static.coupangcdn.com/image/vendor_inventory/dbf8/d3b2fd51b5dc48569bf6833a165991a4910ac020e380efad2e285dd05a80.jpg" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h4>딥스바 푸쉬업바 가정용 헬스기구</h4></a></div><br>
+				<div>
+				  <div class="bottom-imageBox d-flex justify-content-between">
+					<div class="detail1">
+						<a href="/user/detail_view" class="text-blue"><img src="https://static.coupangcdn.com/image/vendor_inventory/dbf8/d3b2fd51b5dc48569bf6833a165991a4910ac020e380efad2e285dd05a80.jpg" alt="" width="450px" height="450px">
+					   	<div class="font-weight-bold mt-4"><h4>딥스바 푸쉬업바 가정용 헬스기구</h4></a></div><br>
 						<div class="text-danger"><h4>75,300원</h4></div>
+					   
 					</div>
 
-					<div class="product2">
-						<img src="https://thumbnail7.coupangcdn.com/thumbnails/remote/700x700ex/image/vendor_inventory/da37/30197b7cb5c1d836e83197d87ab4f0b19f4177d6ee68fd33291199e4bf8e.jpg" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h4>멀티 푸쉬어바 홈트레이닝 상체 운동기구</h4></a></div><br>
+					<div class="detail2">
+						<a href="/user/detail_view" class="text-blue"><img src="https://thumbnail7.coupangcdn.com/thumbnails/remote/700x700ex/image/vendor_inventory/da37/30197b7cb5c1d836e83197d87ab4f0b19f4177d6ee68fd33291199e4bf8e.jpg" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><h4>멀티 푸쉬어바 홈트레이닝 상체 운동기구</h4></a></div><br>
 						<div class="text-danger"><h4>30,000원</h4></div>
 					</div>
 
-					<div class="product3">
-						<img src="http://th1.tmon.kr/thumbs/image/cec/788/f03/fda462a47_700x700_95_FIT.jpg" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h4>다이어트학교 정품 팔뚝살 상체 운동기구</h4></a></div><br>
+					<div class="detail3">
+						<a href="/user/detail_view" class="text-blue"><img src="http://th1.tmon.kr/thumbs/image/cec/788/f03/fda462a47_700x700_95_FIT.jpg" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><h4>다이어트학교 정품 팔뚝살 상체 운동기구</h4></a></div><br>
 						<div class="text-danger"><h4>18,500원</h4></div>
 					</div>
+				  </div>
 				</div>
-				
-			
-	       
+				      
 	       </div>
-       </div>
-       
-       
-          
-       
-       
-     
-     
+       </div>         
      
      
      </div>
