@@ -98,10 +98,10 @@
 				console.log('data',data);
 				
 				if (data.result == "success") {
-					location.href = "/user/afterLogin_main_page_view";
+					location.href = "/user/main_page_view";
 				} else {
 					alert("환영합니다 고객님 HIM-SSEN입니다");
-					location.href = "/user/afterLogin_main_page_view"
+					location.href = "/user/main_page_view"
 				}
 			});
 		});

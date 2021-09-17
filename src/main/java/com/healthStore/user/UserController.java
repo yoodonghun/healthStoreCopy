@@ -19,10 +19,10 @@ public class UserController {
 	@Autowired
 	private UserBO userBO;
 
-	@RequestMapping("/afterLogin_main_page_view")
+	@RequestMapping("/main_page_view")
 	public String afterLoginMainPageView() {
 		
-		return "template/layout2";
+		return "template/layout";
 	}
 	
 	
@@ -65,23 +65,7 @@ public class UserController {
 		return "redirect:/user/sign_in_view";
 	}
 	
-	@RequestMapping("/himssen_upperBody_view")
-	public String upperView() {		
-		
-		return "part/upper";
-	}
 	
-	@RequestMapping("/himssen_lowerBody_view")
-	public String lowerView() {		
-		
-		return "part/lower";
-	}
-	
-	@RequestMapping("/himssen_abdominal_view")
-	public String abdominalView() {		
-		
-		return "part/abdominal";
-	}
 	
 	@RequestMapping("/warning_view")
 	public String warningView() {
@@ -89,6 +73,11 @@ public class UserController {
 		return "other/warning";
 	}
 	
+	@RequestMapping("/number1")
+	public String number1() {
+		
+		return "product/no1";
+	}
 	
 	
 	
