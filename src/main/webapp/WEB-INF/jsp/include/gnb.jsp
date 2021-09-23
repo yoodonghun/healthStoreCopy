@@ -27,10 +27,8 @@
 			<li class="nav-item"><a href="/user/sign_up_view"
 				id="signUp" class="nav-link top-menu-font text-dark">회원가입</a></li>
 			<li class="nav-item"><a href="/user/sign_in_view"
-				id="signIn" class="nav-link top-menu-font text-dark">로그인</a></li>
-			<li class="nav-item"><a href="/user/warning_view"
-				id="customer_service" class="nav-link top-menu-font text-dark">고객센터</a></li>
-			<li class="nav-item"><a href="/user/warning_view"
+				id="signIn" class="nav-link top-menu-font text-dark">로그인</a></li>			
+			<li class="nav-item"><a href="/user/cart_view"
 				id="cart" class="nav-link top-menu-font text-dark">장바구니</a></li>
 		</ul>
 	</nav>

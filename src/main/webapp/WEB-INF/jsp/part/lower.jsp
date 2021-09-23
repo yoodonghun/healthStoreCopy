@@ -19,47 +19,55 @@
        </header>
        
         <nav>
-        
           <jsp:include page="../include/nav.jsp" />
        </nav>
-
-		<div>
+       
+       <div>
 			<div class="d-flex justify-content-center">
-			  <div class="upBox d-flex justify-content-center">
-				<div class="topPartBox mt-4 text-center">
-				    <div class="mb-3">하체 운동</div>
-					<img
-						src="data:image/jpeg;base64,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"
-						alt="하체운동 이미지" width="450" height="250"> 
+			  <div class="upBox d-flex justify-content-start">
+				<div class="topPartBox mt-4 text-center d-flex">
+				  <div>
+				    <img src="https://mblogthumb-phinf.pstatic.net/20160318_45/sudveie875_1458268140460zX35y_JPEG/gvbc.jpg?type=w800"
+						alt="상체운동 이미지" width="1050" height="500">
+				  </div>				    
+					
+				  <div>
+				    <div class="uppertext  mb-4 d-flex justify-content-center align-items-center text-white">하체 운동<br></div>
+				  </div>		
+				    		
+	 					
 				</div>
 			  </div>
+			 
 			</div>
+			<hr>
 
-			<div class="d-flex justify-content-center">
+			 <div class="d-flex justify-content-center">
 				<div class="productBox d-flex justify-content-between mt-4">
 				   <div class="bottom-imageBox d-flex justify-content-between">
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210226_295%2F1614323889313CUc5C_JPEG%2F105945_0.jpg&type=sc960_832" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>하체 근력운동 스트레칭 힙쓰러스트</h3></a></div><br>
+						<div class="text-danger"><h4>4,200원</h4></div>
 					</div>
 
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/e0d0/fb2e4e49164cbc56ca2e783f24b189b6f0c9cf296741e42ad0c0d0801f22.png" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>힙딥밴드 하체근력 운동기구</h3></a></div><br>
+						<div class="text-danger"><h4>9,000원</h4></div>
 					</div>
 
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/pd/21/7/7/4/4/1/8/kjCIV/3713774418_B.jpg" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>하체운동 미니 바이크 자전거 스텝퍼</h3></a></div><br>
+						<div class="text-danger"><h4>35,000원</h4></div>
 					</div>
-				</div>
+				   </div>
 				</div>
 
-			</div>
+			</div> 
 		</div>
 	</div>    
+   </div>    
 </body>
 </html>

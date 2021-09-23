@@ -19,47 +19,55 @@
        </header>
        
         <nav>
-        
           <jsp:include page="../include/nav.jsp" />
        </nav>
-
-		<div>
+       
+       <div>
 			<div class="d-flex justify-content-center">
-			  <div class="upBox d-flex justify-content-center">
-				<div class="topPartBox mt-4 text-center">
-				    <div class="mb-3">복부 운동</div>
-					<img
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZ1N8E-I4b35voCHwhgEBKZe55XJ02ln14g&usqp=CAU"
-						alt="복부운동 이미지" width="450" height="250"> 
+			  <div class="upBox d-flex justify-content-start">
+				<div class="topPartBox mt-4 text-center d-flex">
+				  <div>
+				    <img src="https://img.okezone.com/content/2018/08/31/481/1944183/10-cara-agar-wanita-bisa-punya-perut-six-pack-seperti-jonatan-christie-WtsffoTabG.jpg"
+						alt="복근운동 이미지" width="1050" height="500">
+				  </div>				    
+					
+				  <div>
+				    <div class="uppertext  mb-4 d-flex justify-content-center align-items-center text-white">복근 운동<br></div>
+				  </div>		
+				    		
+	 					
 				</div>
 			  </div>
+			 
 			</div>
+			<hr>
 
-			<div class="d-flex justify-content-center">
+			 <div class="d-flex justify-content-center">
 				<div class="productBox d-flex justify-content-between mt-4">
 				   <div class="bottom-imageBox d-flex justify-content-between">
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="http://static.fv-cdn.com/caz/1_koharu/thumb/ABS_04.jpg" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>듀얼 바퀴 복근운동기구</h3></a></div><br>
+						<div class="text-danger"><h4>18,500원</h4></div>
 					</div>
 
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="https://image.g9.co.kr/g/1680486544/n?ts=1606805103000" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>복근운동 멀티싯업</h3></a></div><br>
+						<div class="text-danger"><h4>138,000원</h4></div>
 					</div>
 
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="https://image.g9.co.kr/g/1575516738/n?ts=1552894623000" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>윗몸일으키기 복근운동</h3></a></div><br>
+						<div class="text-danger"><h4>11,000원</h4></div>
 					</div>
-				</div>
+				   </div>
 				</div>
 
-			</div>
+			</div> 
 		</div>
 	</div>    
+   </div>    
 </body>
 </html>

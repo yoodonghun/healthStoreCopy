@@ -25,11 +25,10 @@ public class ProductController {
 		return "part/abdominal";
 	}
 	
-	@RequestMapping("/number")
-	
-	public String number() {
+	@RequestMapping("/detail_view")
+	public String detailView() {
 		
-		return "product/no1";
+		return "part/detail";
 	}
 	
 }

@@ -47,7 +47,7 @@
 				<div>
 				  <div class="bottom-imageBox d-flex justify-content-between">
 					<div class="detail1">
-						<a href="" class="text-blue">
+						<a href="/product/detail_view" class="text-blue">
 						<img src="https://static.coupangcdn.com/image/vendor_inventory/dbf8/d3b2fd51b5dc48569bf6833a165991a4910ac020e380efad2e285dd05a80.jpg" alt="" width="450px" height="450px">
 					   	<div class="font-weight-bold mt-4"><h4>딥스바 푸쉬업바 가정용 헬스기구</h4></div></a><br>
 						<div class="text-danger"><h4>75,300원</h4></div>

@@ -19,47 +19,55 @@
        </header>
        
         <nav>
-        
           <jsp:include page="../include/nav.jsp" />
        </nav>
-
-		<div>
+       
+       <div>
 			<div class="d-flex justify-content-center">
-			  <div class="upBox d-flex justify-content-center">
-				<div class="topPartBox mt-4 text-center">
-				    <div class="mb-3">상체 운동</div>
-					<img
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yHvrd9Bki0RFsqgnmVbdmNBZvXdBQY2EAg&usqp=CAU"
-						alt="상체운동 이미지" width="650" height="450"> 
+			  <div class="upBox d-flex justify-content-start">
+				<div class="topPartBox mt-4 text-center d-flex">
+				  <div>
+				    <img src="https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2013/06/7-Brutal-New-Upper-Body-Exercises-1.jpg"
+						alt="상체운동 이미지" width="1050" height="500">
+				  </div>				    
+					
+				  <div>
+				    <div class="uppertext  mb-4 d-flex justify-content-center align-items-center text-white">상체 운동<br></div>
+				  </div>		
+				    		
+	 					
 				</div>
 			  </div>
+			 
 			</div>
+			<hr>
 
-			<div class="d-flex justify-content-center">
+			 <div class="d-flex justify-content-center">
 				<div class="productBox d-flex justify-content-between mt-4">
-				   <div class="bottom-imageBox d-flex justify-content-around">
+				   <div class="bottom-imageBox d-flex justify-content-between">
 					<div class="product">
 						<img src="http://th3.tmon.kr/thumbs/image/954/27c/c92/92fd29ddb_700x700_95_FIT.jpg" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>원더코어 이지 스쿼트 머신 3in1 전신운동기구</h3></a></div><br>
-						<div class="text-secondary"><h4>42,900원</h4></div>
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>스쿼트 머신 3in1 전신운동기구</h3></a></div><br>
+						<div class="text-danger"><h4>42,000원</h4></div>
 					</div>
 
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="https://image.g9.co.kr/g/2173112733/n?ts=1627629743000" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>딥스바 푸쉬업바 가정용 헬스기구</h3></a></div><br>
+						<div class="text-danger"><h4>75,300원</h4></div>
 					</div>
 
 					<div class="product">
-						<img src="" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-dark"><h3>상품이름</h3></a></div><br>
-						<div class="text-secondary"><h4>가격</h4></div>
+						<img src="http://th1.tmon.kr/thumbs/image/cec/788/f03/fda462a47_700x700_95_FIT.jpg" alt="" width="450px" height="450px">
+						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>팔뚝살 상체 운동기구</h3></a></div><br>
+						<div class="text-danger"><h4>17,900원</h4></div>
 					</div>
-				</div>
+				   </div>
 				</div>
 
-			</div>
+			</div> 
 		</div>
 	</div>    
+   </div>    
 </body>
 </html>

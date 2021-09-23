@@ -73,10 +73,10 @@ public class UserController {
 		return "other/warning";
 	}
 	
-	@RequestMapping("/number1")
-	public String number1() {
+	@RequestMapping("/cart_view")
+	public String customerServiceView() {
 		
-		return "product/no1";
+		return "other/cart";
 	}
 	
 	
