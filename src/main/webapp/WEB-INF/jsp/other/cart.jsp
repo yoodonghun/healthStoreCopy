@@ -30,7 +30,7 @@
          <div class=" d-flex justify-content-center">
             <div class="shoppingBasket">
                <div class="basketText">장바구니</div>
-            </div>             
+            </div>              
          </div>
         
          <div class=" d-flex justify-content-center">

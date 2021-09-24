@@ -51,7 +51,7 @@ a:hover{text-decoration:none}
 
 
 /*shopping basket */
-.emptyBox{width:1200px; height:50px;}
+.emptyBox{width:1200px; height:100px;}
 .shoppingBasket{width:1200px; height:50px;}
 .basketText{font-size:40px}
 .basket{width:1200px; height: 400px; background-color:#ffffff; border:1px solid black}
@@ -59,7 +59,9 @@ a:hover{text-decoration:none}
 .saleBtn2{width:210px; height:80px; background-color:#ffffff; font-size:25px}
 
 /*detail view*/
-.detailImageBox{width:1500px; height:800px; }
+.detailImageBox{width:1400px; height:700px; }
 .product{width:700px; height:700px; }
-.productName{font-size:30px}
+.detailBox{width:700px; height:700px; }
+.productName{font-size:40px}
+.productPrice{font-size:30px}
 

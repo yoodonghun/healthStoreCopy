@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,21 +26,27 @@
        <div>
          <div class=" d-flex justify-content-center">
             <div class="emptyBox"></div>             
-         </div><br>
-         
+         </div><br>         
+       </div>
+       
+       <div>
          <div class=" d-flex justify-content-center">
             <div class="detailImageBox d-flex">
                <img src="#" class="product">
-               <div class="productName ml-4">딥스바 푸쉬업바</div>
-               <hr>
-
-            </div>
-            
-               
-                         
+               <div class="detailBox ml-4">
+                 <div class="ml-3 mt-4 productName">딥스바 푸시업바</div>
+                 <div class="ml-4 mt-2 productPrice font-weight-bold">75,300원</div>
+                 <hr>
+                 <div class="d-flex">
+                    <div class="ml-4 font-weight-bold">배송정보</div>
+                    <div class="ml-4 ">무료</div>
+                    <div class="ml-4 font-weight-bold">혜택</div>
+                    <div class="ml-4 ">5,000원 쿠폰 지급</div>
+                 </div>
+               </div>
+            </div>                                               
          </div>
-       </div>
-       
+       </div>  
    </div>
 </body>
 </html>

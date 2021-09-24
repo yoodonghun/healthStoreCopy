@@ -1,11 +1,16 @@
 package com.healthStore.product;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.healthStore.product.bo.ProductBO;
 
 @RequestMapping("/product")
 @Controller
 public class ProductController {
+	@Autowired
+	private ProductBO productBO;
     
 	@RequestMapping("/upperBody_view")
 	public String upperView() {		

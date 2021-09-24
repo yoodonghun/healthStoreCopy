@@ -44,7 +44,7 @@
 
 			 <div class="d-flex justify-content-center">
 				<div class="productBox d-flex justify-content-between mt-4">
-				   <div class="bottom-imageBox d-flex justify-content-between">
+				   <div class="bottom-imageBox d-flex justify-content-between"> 
 					<div class="product">
 						<img src="http://th3.tmon.kr/thumbs/image/954/27c/c92/92fd29ddb_700x700_95_FIT.jpg" alt="" width="450px" height="450px">
 						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>스쿼트 머신 3in1 전신운동기구</h3></a></div><br>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ <mapper namespace="com.healthStore.product.dao.ProductDAO">
+    <insert id="insertDAO" parameterType="map">
+       INSERT INTO `product`
+       (
+           `id`
+           ,`productId`
+           ,`productName`
+           ,`price`
+           ,`part`
+           ,`imagePath`
+           ,`createdAt`
+           ,`updatedAt`       
+       )
+       VALUES
+       (
+           #{productId}
+           ,#{productName}
+           ,#{price}
+           ,#{part}
+           ,#{imagePath}
+           ,NOW()
+           ,NOW()
+       )
+    </insert>
+ </mapper>
