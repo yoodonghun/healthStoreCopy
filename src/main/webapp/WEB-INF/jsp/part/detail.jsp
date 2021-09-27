@@ -33,19 +33,48 @@
          <div class=" d-flex justify-content-center">
             <div class="detailImageBox d-flex">
                <img src="#" class="product">
+               <div class="centerEmpty"></div>
                <div class="detailBox ml-4">
-                 <div class="ml-3 mt-4 productName">딥스바 푸시업바</div>
-                 <div class="ml-4 mt-2 productPrice font-weight-bold">75,300원</div>
+                 <div class="ml-3 mt-4 productName">딥스바 푸시업바</div><br><br>
+                 <div class="ml-4 mt-2 productPrice font-weight-bold text-danger">75,300원</div>
+                 
                  <hr>
                  <div class="d-flex">
-                    <div class="ml-4 font-weight-bold">배송정보</div>
-                    <div class="ml-4 ">무료</div>
-                    <div class="ml-4 font-weight-bold">혜택</div>
-                    <div class="ml-4 ">5,000원 쿠폰 지급</div>
-                 </div>
-               </div>
-            </div>                                               
+                    <div class="ml-2 font-weight-bold col-3">배송정보</div>
+                    <div class="ml-2 col-9">무료</div>                    
+                 </div><br>
+                 
+                 <div class="d-flex">
+                    <div class="ml-2 font-weight-bold col-3">혜택</div>
+                    <div class="ml-2 col-9">5,000원 쿠폰 지급</div>
+                 </div><br><br><br><br><br>
+                 <hr>
+                 <br><br>
+                 
+                 <div class="d-flex mt-4 ">
+                  <button type="submit" class="cartBtn btn-secondary mr-2">장바구니</button>
+                  <button type="submit" class="buyBtn text-white">구매하기</button>
+                 </div>                 
+               </div>              
+             </div>                                               
          </div>
+       </div><br>
+       <hr>
+       
+       <div>
+         <div class=" d-flex justify-content-center">
+            <div class="emptyBox1"></div>             
+         </div><br>         
+       </div>
+       
+       <div>
+          <div class=" d-flex justify-content-center">
+             <div class="reviewText justify-content-start">
+                <div>review</div>
+                <hr>
+                
+             </div>
+          </div>
        </div>  
    </div>
 </body>

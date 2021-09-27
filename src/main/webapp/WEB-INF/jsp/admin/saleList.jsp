@@ -29,47 +29,8 @@
                         
          </div>
          
-         <div>
-           <div class="d-flex justify-content-center ml-4 mt-4">
-             <div class="innerBox">
-                <div class="topEmptyBox"></div>
-                <div class="topText ml-4 mb-2">관리자 정보</div>
-                <hr>
-                <div class="topEmptyBox"></div>
-               
-
-                <div class="d-flex ml-4">
-                  <div class="adminName col-2">이름:</div>
-                  <div class="adminName col-9">유동헌</div>
-                  
-                </div>
-                <hr>
-                <div class="topEmptyBox"></div>
-                
-                <div class="d-flex ml-4 ">
-                  <div class="adminName col-2">사업장 소재지:</div>
-                  <div class="adminName col-9">서울시 성동구 ****</div>                  
-                </div>
-                <hr>
-                
-                <div class="topEmptyBox"></div>
-                
-                <div class="d-flex ml-4 ">
-                  <div class="adminName col-2">휴대폰 번호:</div>
-                  <div class="adminName col-9">010-****-****</div>                  
-                </div>
-                <hr>
-                
-                
-             </div>
-           </div>
-           
-           
-           
-         </div>
          
-        
-        
+         
       </div>
    </div>
 </body>

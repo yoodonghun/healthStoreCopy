@@ -50,18 +50,24 @@ a:hover{text-decoration:none}
 .uppertext{width:500px; height:500px; border:1px solid black; font-size:40px; font-family:serif; background-color:#000000;}
 
 
-/*shopping basket */
+/*cart */
 .emptyBox{width:1200px; height:100px;}
+.emptyBox1{width:1200px; height:30px;}
 .shoppingBasket{width:1200px; height:50px;}
 .basketText{font-size:40px}
-.basket{width:1200px; height: 400px; background-color:#ffffff; border:1px solid black}
+.basket{width:1200px; height: 400px; background-color:#ffffff; border:1px solid black; border-left:0px; border-right:0px}
 .saleBtn1{width:210px; height:80px; background-color:#000000; font-size:25px}
 .saleBtn2{width:210px; height:80px; background-color:#ffffff; font-size:25px}
 
 /*detail view*/
-.detailImageBox{width:1400px; height:700px; }
-.product{width:700px; height:700px; }
-.detailBox{width:700px; height:700px; }
+.detailImageBox{width:1500px; height:700px; }
+.product{width:600px; height:600px; }
+.detailBox{width:500px; height:700px; }
+.centerEmpty{width:200px; height:600px;}
 .productName{font-size:40px}
 .productPrice{font-size:30px}
+.cartBtn {width:250px; height:80px; font-size:25px}
+.buyBtn {width:250px; height:80px; background-color:#c43c5e; font-size:25px}
+.reviewText{width:1500px; height:60px; font-size:50px}
+
 

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#wrap {width:1900px; height:1000px; }
+.leftBox{width:300px; height:1000px;background-color:#000000}
+.logo{font-size:50px; font-family:serif}
+.emptyBox{width:300px; height:100px;}
+.nav{font-size:20px; }
+
+.innerBox{width:1550px; height:950px; background-color:#ffffff}
+.topEmptyBox{width:1550px; height:50px; }
+.topText{font-size:45px; }
+.adminName{font-size:30px}
+
+
+
+
+
+
+
