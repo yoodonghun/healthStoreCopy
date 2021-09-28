@@ -15,11 +15,11 @@
 <body>
 <div id="wrap">
 	<header>
-		<jsp:include page="../include/gnb.jsp" />
+		<jsp:include page="../include/logo.jsp" />
 	</header>
 
 	<nav>
-		<jsp:include page="../include/nav.jsp" />
+		
 	</nav>
 
 
@@ -77,17 +77,18 @@
 
 <script>
 	$(document).ready(function() {
-		$("#signInBtn").on("click", function (e) {
+		$("#loginForm").on("submit", function (e) {
 			e.preventDefault();
+			
 			let loginId = $("input[name=loginId]").val().trim();
 			if (loginId == "") {
 				alert("아이디를 입력해주세요");
-				return;
+				return false;
 			}
 			let password = $("input[name=password]").val();
 			if (password == "") {
 				alert("비밀번호를 입력해주세요");
-				return;
+				return false;
 			}
 			
 			let url = $(this).attr("action");
@@ -95,13 +96,14 @@
 			
 			$.post(url, params).done(function (data) {
 				
-				console.log('data',data);
+				alert('data'+ data.result);
 				
 				if (data.result == "success") {
-					location.href = "/user/main_page_view";
-				} else {
 					alert("환영합니다 고객님 HIM-SSEN입니다");
-					location.href = "/user/main_page_view"
+					location.href = "/user/main_page_view";
+				} else{
+					alert("아이디 또는 비밀번호가 틀립니다");
+					
 				}
 			});
 		});

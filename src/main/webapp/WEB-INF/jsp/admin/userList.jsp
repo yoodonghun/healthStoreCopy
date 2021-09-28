@@ -30,6 +30,42 @@
          </div>
          
          
+        <div>
+           <div>
+	           <div class="d-flex justify-content-center ml-4 mt-4">
+	             <div class="innerBox">
+	                <div class="topEmptyBox"></div>
+	                <div class="topText ml-4 mb-2">회원 목록</div>
+	                <hr>
+	                
+	                
+	                <div>
+	                  <table class="table">
+	                     <thead>
+	                       <tr class="text-center">
+	                         <th class="col-1">No.</th>
+	                         <th class="col-2">Name</th>
+	                         <th class="col-3">Id</th>
+	                         <th class="col-6">Email</th>
+	                       </tr>
+	                     </thead>
+	                     <tbody>
+	                       <tr class="text-center">
+	                         <td>ㅇㅇ</td>
+	                         <td>ㅇㅇ</td>
+	                         <td>ㅇㅇ</td>
+	                         <td>ㅇㅇ</td>
+	                       </tr>
+	                     </tbody>
+	                  </table>
+	                </div>
+
+	             </div>
+	           </div>
+         </div>
+         </div>
+         
+         
          
       </div>
    </div>

@@ -30,7 +30,63 @@
          </div>
          
          
-         
+          <div>
+           <div>
+	           <div class="d-flex justify-content-center ml-4 mt-4">
+	             <div class="innerBox">
+	                <div class="topEmptyBox"></div>
+	                <div class="topText ml-4 mb-2">상품 판매</div>
+	                <hr>
+	                <div class="topEmptyBox"></div>
+	                
+	                <div>
+	                  <div class="d-flex justify-content-center">
+	                    <div class="saleBox d-flex">
+	                       <img src="" alt="" width= "500px" height="500px">
+	                       <div class="centerEmpty"></div>
+	                       
+	                       <div class="detailBox">
+	                         <input type="text" class="nameInput form-control" placeholder="상품 이름">
+	                         
+	                         <div class="d-flex mt-4">
+	                           <input type="text" class="priceInput form-control mr-4" placeholder="상품 가격">
+	                           <div class="mt-2">원</div>
+	                         </div>
+	                         
+	                         <div class="d-flex mt-4">
+	                           <div class="deleveryPrice  mr-4">배송비</div>
+	                           <div class="ml-4">무료</div>
+	                         </div>
+	                           
+	                         <div class="d-flex mt-4">
+	                           <div class="deleveryPrice  mr-4">혜택</div>
+	                           <div class="ml-4">5,000원 쿠폰 지급</div>
+	                         </div>
+	                         
+	                         <div class="file-upload btn clearfix mt-4 ">
+	                           <input id="file" type="file" class="float-right mr-3" accept=".jpg,.jpeg,.png,.gif">
+	                         </div>
+	                          
+	                         
+	                         <div class="registration d-flex  mt-4">
+	                            <button type="submit" class="registBtn form-control col-6 mr-2 text-white">등록하기</button>
+	                            
+	                            <button type="submit" class="cancleBtn form-control col-6"><a href="/admin/adminInfo_view" class="text-white">취소하기</a></button>
+	                         </div>  
+	                       </div>
+	                    </div>
+	                    
+	                  </div>
+	                </div>
+
+	             </div>
+	           </div>
+         </div>
+         </div>       
+      </div>
+   </div>
+</body>
+</html>
       </div>
    </div>
 </body>

@@ -11,6 +11,12 @@
 .topText{font-size:45px; }
 .adminName{font-size:30px}
 
+/*sale page*/
+.saleBox{width:1200px; height:800px;}
+.centerEmpty{width:100px; height:500px; }
+.detailBox{width:400px; height:500px; }
+.registBtn{background-color:#000000}
+.cancleBtn{background-color:#db0000;}
 
 
 

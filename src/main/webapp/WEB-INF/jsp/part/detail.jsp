@@ -40,7 +40,7 @@
                  
                  <hr>
                  <div class="d-flex">
-                    <div class="ml-2 font-weight-bold col-3">배송정보</div>
+                    <div class="ml-2 font-weight-bold col-3">배송비</div>
                     <div class="ml-2 col-9">무료</div>                    
                  </div><br>
                  
