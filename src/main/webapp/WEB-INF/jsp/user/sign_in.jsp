@@ -65,7 +65,7 @@
 						<div class="d-flex justify-content-center">
 
 							<a href="/user/sign_up_view" class="text-white">
-								<button type="submit" id="signUpBtn" class="signUpBtn btn-secondary form-control">회원가입</button></a>
+								<button type="button" id="signUpBtn" class="signUpBtn btn-secondary form-control">회원가입</button></a>
 						</div>
 					</div>
 				</div>
@@ -96,7 +96,7 @@
 			
 			$.post(url, params).done(function (data) {
 				
-				alert('data'+ data.result);
+				console.log('data'+ data.result);
 				
 				if (data.result == "success") {
 					alert("환영합니다 고객님 HIM-SSEN입니다");

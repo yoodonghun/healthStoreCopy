@@ -15,7 +15,7 @@
 <body>
 	<div id="wrap">
 		<header>
-			<jsp:include page="../include/gnb.jsp" />
+			<jsp:include page="../include/logo.jsp" />
 		</header>
 
 		<nav>
@@ -74,8 +74,9 @@
 							<option>@daum.net</option>
 							<option>직접 입력</option>
 						</select> 
-						<button type="submit"
-								class="signupBtn form-control text-white mt-4">가입하기</button>
+						<button type="submit" class="signupBtn form-control text-white mt-4">가입하기</button>
+						
+								
 					</div>
 				</div>
 			</form>	

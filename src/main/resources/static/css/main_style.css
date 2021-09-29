@@ -3,7 +3,7 @@
 #wrap {width: 1900px; height: 1500px}
 header {height:100px}
 .searchBox{width:400px}
-.searchInput {width:350px; height:50px; border-left: 0px; border-top:0px; border-right:0px}
+.searchInput {width:350px; height:50px; border-left: 0px; border-top:0px; border-right:0px; border-bottom:2px solid black}
 .searchBtn{width:50px; height:50px; border-left: 0px; border-top:0px; border-right:0px; background-color:#ffffff}
 .mainLogo{font-size:60px; font-family:serif}
 .top-menu{font-size:15px; color:#ffffff}
@@ -15,7 +15,7 @@ nav {height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
 
 .partBox{width:1650px; height:200px; background-color:#ffffff}
 .middleBox{background-color:#b5a6e2; width: 450px; height:200px}
-.middleText {display: grid; place-content: center; text-align:center; font-size:30px}
+.middleText {display: grid; place-content: center; text-align:center; font-size:30px; background-color:#c0c0c0}
 
 .bottomBox{width:1550px; height:50px;}
 .bottom-imageBox{width:1550px; height: 700px;}
@@ -39,6 +39,7 @@ a:hover{text-decoration:none}
 input::placeholder{font-size:20px; font-weight:bold;}
 #emailDomain{width:250px; height:70px; font-size:20px; font-weight:bold}
 .signupBtn{background-color:#c43c5e; height:70px; font-size:30px}
+
 a:hover{text-decoration:none}
 
 

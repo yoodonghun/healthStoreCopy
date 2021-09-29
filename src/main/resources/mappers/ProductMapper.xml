@@ -26,4 +26,24 @@
            ,NOW()
        )
     </insert>
+    
+    <select id="selectProductList" resultType="com.healthStore.product.model.Product">
+       SELECT
+            `id`
+           ,`productId`
+           ,`productName`
+           ,`price`
+           ,`part`
+           ,`imagePath`
+           ,`createdAt`
+           ,`updatedAt` 
+      FROM
+          `product`
+      WHERE
+          `productName` = #{productName}
+          AND `price` = #{price}
+      LIMIT 1
+      
+              
+    </select>
  </mapper>

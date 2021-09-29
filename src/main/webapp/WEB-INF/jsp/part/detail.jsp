@@ -29,15 +29,19 @@
          </div><br>         
        </div>
        
+      
        <div>
          <div class=" d-flex justify-content-center">
             <div class="detailImageBox d-flex">
                <img src="#" class="product">
                <div class="centerEmpty"></div>
                <div class="detailBox ml-4">
+                
+                
                  <div class="ml-3 mt-4 productName">딥스바 푸시업바</div><br><br>
                  <div class="ml-4 mt-2 productPrice font-weight-bold text-danger">75,300원</div>
-                 
+                
+                
                  <hr>
                  <div class="d-flex">
                     <div class="ml-2 font-weight-bold col-3">배송비</div>
@@ -59,6 +63,7 @@
              </div>                                               
          </div>
        </div><br>
+      
        <hr>
        
        <div>

@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>    
  <div>
      <div class="d-flex justify-content-center mt-4">
        <div class="imageBox">
@@ -40,20 +42,22 @@
            <h1>오늘의 추천상품</h1>         
          </div>       
        </div><br>
-       
+      
        <div>
 	       <div class="d-flex justify-content-center">
-	        
+	         
+	         
+	         
 				<div>
 				  <div class="bottom-imageBox d-flex justify-content-between">
+				   <c:forEach var="product" items="${productList}">	
 					<div class="detail1">
 						<a href="/product/detail_view" class="text-blue">
-						<img src="https://static.coupangcdn.com/image/vendor_inventory/dbf8/d3b2fd51b5dc48569bf6833a165991a4910ac020e380efad2e285dd05a80.jpg" alt="" width="450px" height="450px">
-					   	<div class="font-weight-bold mt-4"><h4>딥스바 푸쉬업바 가정용 헬스기구</h4></div></a><br>
-						<div class="text-danger"><h4>75,300원</h4></div>
-					   
+						<img src="${product.imagePath}" alt="" width="450px" height="450px">
+					    <div class="font-weight-bold mt-4"><h4>${product.productName}</h4></div></a><br>
+						<div class="text-danger"><h4>${product.price}원</h4></div>					   
 					</div>
-
+                   </c:forEach>
 					<div class="detail2">
 						<a href="" class="text-blue">
 						<img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/e0d0/fb2e4e49164cbc56ca2e783f24b189b6f0c9cf296741e42ad0c0d0801f22.png" alt="" width="450px" height="450px" alt="" width="450px" height="450px">
@@ -67,6 +71,7 @@
 						<div class="font-weight-bold mt-4"><h4>듀얼 바퀴 복근운동기구</h4></div></a><br>
 						<div class="text-danger"><h4>18,500원</h4></div>
 					</div>
+					
 				  </div>
 				</div>
 				      
