@@ -1,16 +1,17 @@
 @charset "UTF-8";
+html,body {width:100%; height:100%}
 
-#wrap {width: 1900px; height: 1500px}
-header {height:100px}
+#wrap {width:1900px; height: 1500px}
+header {width:100%;height:100px}
 .searchBox{width:400px}
 .searchInput {width:350px; height:50px; border-left: 0px; border-top:0px; border-right:0px; border-bottom:2px solid black}
-.searchBtn{width:50px; height:50px; border-left: 0px; border-top:0px; border-right:0px; background-color:#ffffff}
+.searchBtn{width:50px; height:50px; border-left: 0px; border-top:0px; border-right:0px; border-bottom:2px solid black; background-color:#ffffff}
 .mainLogo{font-size:60px; font-family:serif}
 .top-menu{font-size:15px; color:#ffffff}
 
 nav {height: 70px; border-top:3px solid; border-bottom:1px solid; color:#000000}
 
-.imageBox{width: 1550px; height: 700px; background-color: #66c0bc}
+.imageBox{width: 1550px; height: 700px; }
 
 
 .partBox{width:1650px; height:200px; background-color:#ffffff}
@@ -27,8 +28,8 @@ a:hover{text-decoration:none}
 .inputBox {width:1000px; height:80px; }
 .inputId {height:50px; border-left:0px; border-top:0px; border-right:0px}
 .inputPw {height:50px; border-left:0px; border-top:0px; border-right:0px}
-.signInBtn {width:416px; height:50px}
-.signUpBtn {width:416px; height:50px}
+.signInBtn {width:416px; height:50px; }
+.signUpBtn {width:416px; height:50px; background-color:#c43c5e;}
 
 /*sign Up*/
 .signUp{font-family:serif}
@@ -39,7 +40,6 @@ a:hover{text-decoration:none}
 input::placeholder{font-size:20px; font-weight:bold;}
 #emailDomain{width:250px; height:70px; font-size:20px; font-weight:bold}
 .signupBtn{background-color:#c43c5e; height:70px; font-size:30px}
-
 a:hover{text-decoration:none}
 
 
@@ -49,6 +49,13 @@ a:hover{text-decoration:none}
 .productBox {width:1550px; height:600px;} 
 
 .uppertext{width:500px; height:500px; border:1px solid black; font-size:40px; font-family:serif; background-color:#000000;}
+
+/*warning page*/
+.backBtn{width:600px}
+.empty{width:100px}
+
+
+
 
 
 /*cart */
@@ -70,5 +77,7 @@ a:hover{text-decoration:none}
 .cartBtn {width:250px; height:80px; font-size:25px}
 .buyBtn {width:250px; height:80px; background-color:#c43c5e; font-size:25px}
 .reviewText{width:1500px; height:60px; font-size:50px}
+
+.table{width:1900px; height:500px;}
 
 

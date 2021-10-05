@@ -100,7 +100,7 @@
 				
 				if (data.result == "success") {
 					alert("환영합니다 고객님 HIM-SSEN입니다");
-					location.href = "/user/main_page_view";
+					location.href = "/product/main_page_view";
 				} else{
 					alert("아이디 또는 비밀번호가 틀립니다");
 					

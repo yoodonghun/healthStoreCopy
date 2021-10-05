@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,41 +34,53 @@
 					
 				  <div>
 				    <div class="uppertext  mb-4 d-flex justify-content-center align-items-center text-white">복근 운동<br></div>
-				  </div>		
-				    		
-	 					
+				  </div>	 					
 				</div>
 			  </div>
 			 
 			</div>
-			<hr>
-
-			 <div class="d-flex justify-content-center">
-				<div class="productBox d-flex justify-content-between mt-4">
-				   <div class="bottom-imageBox d-flex justify-content-between">
-					<div class="product">
-						<img src="http://static.fv-cdn.com/caz/1_koharu/thumb/ABS_04.jpg" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>듀얼 바퀴 복근운동기구</h3></a></div><br>
-						<div class="text-danger"><h4>18,500원</h4></div>
+		  </div>
+			<hr><br>
+			
+			
+	     <div>
+	       <div class="d-flex justify-content-center">
+	        
+				<div>
+				  <div class="bottom-imageBox d-flex justify-content-between">
+				   <c:forEach var="item" items="${productDetail}" begin="6" end="6">
+					<div class="detail1">					 					  
+						<a href="/product/detail_view" class="text-blue">
+						<img src=${item.imagePath} alt="" width="450px" height="450px">
+					   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
+						<div class="text-danger"><h4>${item.price}원</h4></div>					    
 					</div>
+				  </c:forEach>
 
-					<div class="product">
-						<img src="https://image.g9.co.kr/g/1680486544/n?ts=1606805103000" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>복근운동 멀티싯업</h3></a></div><br>
-						<div class="text-danger"><h4>138,000원</h4></div>
-					</div>
+					<c:forEach var="item" items="${productDetail}" begin="7" end="7">
+						<div class="detail2">					 					  
+							<a href="/product/detail_view" class="text-blue">
+							<img src=${item.imagePath} alt="" width="450px" height="450px">
+						   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
+							<div class="text-danger"><h4>${item.price}원</h4></div>					    
+						</div>
+					</c:forEach>
 
-					<div class="product">
-						<img src="https://image.g9.co.kr/g/1575516738/n?ts=1552894623000" alt="" width="450px" height="450px">
-						<div class="font-weight-bold mt-4"><a href="" class="text-blue"><h3>윗몸일으키기 복근운동</h3></a></div><br>
-						<div class="text-danger"><h4>11,000원</h4></div>
-					</div>
-				   </div>
+					<c:forEach var="item" items="${productDetail}" begin="8" end="8">
+						<div class="detail3">					 					  
+							<a href="/product/detail_view" class="text-blue">
+							<img src=${item.imagePath} alt="" width="450px" height="450px">
+						   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
+							<div class="text-danger"><h4>${item.price}원</h4></div>					    
+						</div>
+					</c:forEach>
+				  </div>
 				</div>
-
-			</div> 
-		</div>
-	</div>    
-   </div>    
+				      
+	       </div>
+       </div>
+		   	
+	</div>
+	  
 </body>
 </html>

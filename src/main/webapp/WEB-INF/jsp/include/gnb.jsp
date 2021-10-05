@@ -15,7 +15,7 @@
 	<div class="d-flex justify-content-center col-4 mt-3">
 		<div class="mainLogo">
 			<div class="display-4">
-				<a href="/user/main_page_view" class="text-dark">HIM-SSEN</a>
+				<a href="/product/main_page_view" class="text-dark">HIM-SSEN</a>
 			</div>
 
 		</div>

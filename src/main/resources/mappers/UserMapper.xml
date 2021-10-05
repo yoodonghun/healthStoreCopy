@@ -55,4 +55,17 @@
           `loginId` = #{loginId}
           AND `password` = #{password}
     </select>
+    
+    <select id="selectUserList" resultType="com.healthStore.user.model.User">
+       SELECT
+          `id`
+          ,`loginId`
+          ,`password`
+          ,`name`
+          ,`email`
+          ,`createdAt`
+          ,`updatedAt`
+       FROM
+          `user`
+    </select>
  </mapper>

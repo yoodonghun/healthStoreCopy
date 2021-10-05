@@ -3,7 +3,7 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
  
  <mapper namespace="com.healthStore.product.dao.ProductDAO">
-    <insert id="insertDAO" parameterType="map">
+    <insert id="insertProduct" parameterType="map">
        INSERT INTO `product`
        (
            `id`
@@ -27,7 +27,7 @@
        )
     </insert>
     
-    <select id="selectProductList" resultType="com.healthStore.product.model.Product">
+    <select id="selectProductDetail" resultType="com.healthStore.product.model.Product">
        SELECT
             `id`
            ,`productId`
@@ -39,10 +39,7 @@
            ,`updatedAt` 
       FROM
           `product`
-      WHERE
-          `productName` = #{productName}
-          AND `price` = #{price}
-      LIMIT 1
+      
       
               
     </select>

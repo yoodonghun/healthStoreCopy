@@ -13,38 +13,61 @@ import com.healthStore.product.model.Product;
 @RequestMapping("/product")
 @Controller
 public class ProductController {
+
 	@Autowired
 	private ProductBO productBO;
-    
-	@RequestMapping("/upperBody_view")
-	public String upperView() {		
-		
+
+	@RequestMapping("/main_page_view")
+	public String main(Model model) {
+		List<Product> productDetail = productBO.getProductDetail();
+		model.addAttribute("productDetail", productDetail);
+		return "template/layout";
+	}
+
+	@RequestMapping("/himssen_upperBody_view")
+	public String upperView(Model model) {
+		List<Product> productDetail = productBO.getProductDetail();
+		model.addAttribute("productDetail", productDetail);
+
 		return "part/upper";
 	}
-	
-	@RequestMapping("/lowerBody_view")
-	public String lowerView() {		
-		
+
+	@RequestMapping("/himssen_lowerBody_view")
+	public String lowerView(Model model) {
+		List<Product> productDetail = productBO.getProductDetail();
+		model.addAttribute("productDetail", productDetail);
+
 		return "part/lower";
 	}
-	
-	@RequestMapping("/abdominal_view")
-	public String abdominalView() {		
-		
+
+	@RequestMapping("/himssen_abdominal_view")
+	public String abdominalView(Model model) {
+		List<Product> productDetail = productBO.getProductDetail();
+		model.addAttribute("productDetail", productDetail);
+
 		return "part/abdominal";
 	}
-	
+
 	@RequestMapping("/detail_view")
-	public String detailView() {
-		
+	public String detailView(Model model) {
+		List<Product> productDetail = productBO.getProductDetail();
+		model.addAttribute("productDetail", productDetail);
+
 		return "part/detail";
 	}
-	
-	@RequestMapping("productList")
-	public String productList(Model model) {
-		List<Product> productList = productBO.getProductList();
-		model.addAttribute("productList", productList);
-		return "part/detail";
+
+	@RequestMapping("/cart_view")
+	public String customerServiceView() {
+
+		return "other/cart";
 	}
-	
+
+	@RequestMapping("/productDetail")
+//	public String productDetail(String productName, int price, String imagePath, Model model) {
+	public String productDetail(Model model) {
+		List<Product> productDetail = productBO.getProductDetail();
+		model.addAttribute("productDetail", productDetail);
+		return "include/content";
+	}
 }
+	

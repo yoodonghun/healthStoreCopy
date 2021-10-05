@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,33 +30,33 @@
                         
          </div>
          
-         
-          <div>
+         <div>
            <div>
 	           <div class="d-flex justify-content-center ml-4 mt-4">
 	             <div class="innerBox">
-	                <div class="topEmptyBox"></div>
+	               
 	                <div class="topText ml-4 mb-2">판매 목록</div>
-	                <hr>
-	                
+	               
 	                
 	                <div>
 	                  <table class="table">
 	                     <thead>
 	                       <tr class="text-center">
-	                         <th class="col-1">No.</th>
-	                         <th class="col-2">productName</th>
-	                         <th class="col-3">price</th>
-	                         <th class="col-6">part</th>
+	                         <th class="col-2">No.</th>
+	                         <th class="col-6">productName</th>
+	                         <th class="col-2">price</th>
+	                         <th class="col-2">part</th>
 	                       </tr>
 	                     </thead>
 	                     <tbody>
+	                     <c:forEach var="item" items="${productDetail}">
 	                       <tr class="text-center">
-	                         <td>ㅇㅇ</td>
-	                         <td>ㅇㅇ</td>
-	                         <td>ㅇㅇ</td>
-	                         <td>ㅇㅇ</td>
+	                         <td>${item.productId}</td>
+	                         <td>${item.productName}</td>
+	                         <td>${item.price}원</td>
+	                         <td>${item.part}</td>
 	                       </tr>
+	                       </c:forEach>
 	                     </tbody>
 	                  </table>
 	                </div>

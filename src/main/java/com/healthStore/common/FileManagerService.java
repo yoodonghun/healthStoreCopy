@@ -15,8 +15,9 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileManagerService {
 private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
-	public final static String FILE_UPLOAD_PATH = 
-			"D:\\유동헌\\Spring-project\\healthStore\\healthStore\\healthStore\\src\\main\\resouces\\static\\image/";
+	//public final static String FILE_UPLOAD_PATH = "D:\\유동헌\\Spring-project\\healthStore\\healthStore\\healthStore\\src\\main\\resouces\\static\\image/";
+	public final static String FILE_UPLOAD_PATH = "/home/ec2-user/imageFolder/";
+			
 	
 	public String saveFile(String loginId, MultipartFile file) throws IOException {
 		

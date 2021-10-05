@@ -66,14 +66,7 @@
 						<h3 class="mt-4">이메일</h3>
 						<input type="text" id="email" name="email"
 							class="signUpInput form-control"> 
-						<select
-							id="emailDomain" class="form-control mt-2">
-							<option>@naver.com</option>
-							<option>@nate.com</option>
-							<option>@google.com</option>
-							<option>@daum.net</option>
-							<option>직접 입력</option>
-						</select> 
+						
 						<button type="submit" class="signupBtn form-control text-white mt-4">가입하기</button>
 						
 								
