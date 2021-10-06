@@ -21,4 +21,8 @@ public class ProductBO {
 	public List<Product> getProductDetail() {
 		return productDAO.selectProductDetail();
 	}
+	
+	public Product getDetail(Integer productId, String productName, int price, String imagePath) {
+		return productDAO.selectDetail(productId, productName, price, imagePath);
+	}
 }

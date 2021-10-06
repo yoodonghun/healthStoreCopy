@@ -1,9 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
-<%
- String productId = request.getParameter("productId");
-%>
+
   <div>
      <div class="d-flex justify-content-center mt-4">
        <div class="imageBox">
@@ -53,7 +51,7 @@
 				  <div class="bottom-imageBox d-flex justify-content-between">
 				   <c:forEach var="item" items="${productDetail}" end="0">
 					<div class="detail1">					 					  
-						<a href="/product/detail_view?productId=0" class="text-blue">
+						<a href="/product/detail_view?productId=${item.id}" class="text-blue">
 						<img src=${item.imagePath} alt="" width="450px" height="450px">
 					   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
 						<div class="text-danger"><h4>${item.price}원</h4></div>					    
@@ -62,7 +60,7 @@
 
 					<c:forEach var="item" items="${productDetail}" begin="4" end="4">
 						<div class="detail2">					 					  
-							<a href="/product/detail_view?productId=4" class="text-blue">
+							<a href="/product/detail_view?productId=${item.id}" class="text-blue">
 							<img src=${item.imagePath} alt="" width="450px" height="450px">
 						   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
 							<div class="text-danger"><h4>${item.price}원</h4></div>					    
@@ -71,7 +69,7 @@
 
 					<c:forEach var="item" items="${productDetail}" begin="7" end="7">
 						<div class="detail3">					 					  
-							<a href="/product/detail_view?productId=7" class="text-blue">
+							<a href="/product/detail_view?productId=${item.id}" class="text-blue">
 							<img src=${item.imagePath} alt="" width="450px" height="450px">
 						   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
 							<div class="text-danger"><h4>${item.price}원</h4></div>					    

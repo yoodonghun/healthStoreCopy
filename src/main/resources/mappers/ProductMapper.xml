@@ -43,4 +43,23 @@
       
               
     </select>
+    
+    <select id="selectDetail" parameterType="map" resultType="com.healthStore.product.model.Product">
+      SELECT
+          `id`
+           ,`productId`
+           ,`productName`
+           ,`price`
+           ,`part`
+           ,`imagePath`
+           ,`createdAt`
+           ,`updatedAt`  
+      FROM
+         `product`
+      Where   
+         `productId` = #{productId} 
+         AND `productName` = #{productName}
+         AND `price` = #{price}
+         AND `imagePath` = #{imagePath}    
+    </select>
  </mapper>

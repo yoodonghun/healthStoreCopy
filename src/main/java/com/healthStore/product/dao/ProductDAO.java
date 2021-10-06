@@ -21,4 +21,10 @@ public interface ProductDAO {
 //			@Param("price") int price,
 //			@Param("imagePath") String imagePath);
 			);
+	
+	public Product selectDetail(
+			@Param("productId") Integer productId,
+			@Param("productName") String productName,
+			@Param("price") int price,
+			@Param("imagePath") String imagePath);
 }

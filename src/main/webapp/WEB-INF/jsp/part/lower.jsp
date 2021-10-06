@@ -50,7 +50,7 @@
 				  <div class="bottom-imageBox d-flex justify-content-between">
 				   <c:forEach var="item" items="${productDetail}" begin="3" end="3">
 					<div class="detail1">					 					  
-						<a href="/product/detail_view" class="text-blue">
+						<a href="/product/detail_view?productId=${item.id}" class="text-blue">
 						<img src=${item.imagePath} alt="" width="450px" height="450px">
 					   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
 						<div class="text-danger"><h4>${item.price}원</h4></div>					    
@@ -59,7 +59,7 @@
 
 					<c:forEach var="item" items="${productDetail}" begin="4" end="4">
 						<div class="detail2">					 					  
-							<a href="/product/detail_view" class="text-blue">
+							<a href="/product/detail_view?productId=${item.id}" class="text-blue">
 							<img src=${item.imagePath} alt="" width="450px" height="450px">
 						   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
 							<div class="text-danger"><h4>${item.price}원</h4></div>					    
@@ -68,7 +68,7 @@
 
 					<c:forEach var="item" items="${productDetail}" begin="5" end="5">
 						<div class="detail3">					 					  
-							<a href="/product/detail_view" class="text-blue">
+							<a href="/product/detail_view?productId=${item.id}" class="text-blue">
 							<img src=${item.imagePath} alt="" width="450px" height="450px">
 						   	<div class="font-weight-bold mt-4"><h4>${item.productName}</h4></div></a><br>
 							<div class="text-danger"><h4>${item.price}원</h4></div>					    

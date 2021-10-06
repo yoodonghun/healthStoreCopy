@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.healthStore.product.bo.ProductBO;
 import com.healthStore.product.model.Product;
@@ -49,9 +50,22 @@ public class ProductController {
 	}
 
 	@RequestMapping("/detail_view")
-	public String detailView(Model model) {
-		List<Product> productDetail = productBO.getProductDetail();
-		model.addAttribute("productDetail", productDetail);
+	public String detailView(
+			@RequestParam(value = "productId", required =
+					false) Integer productId ,
+			@RequestParam(value = "productName", required =
+					false) String productName,
+			@RequestParam(value = "price", required =
+					false) int price,
+			@RequestParam(value = "imagePath", required =
+					false)String imagePath,
+			Model model ) {
+		Product detail = productBO.getDetail(productId, productName, price, imagePath);
+		model.addAttribute("detail", detail);
+		model.addAttribute("productId", productId);
+		model.addAttribute("productName", productName);
+		model.addAttribute("price", price);
+		model.addAttribute("imagePath", imagePath);
 
 		return "part/detail";
 	}

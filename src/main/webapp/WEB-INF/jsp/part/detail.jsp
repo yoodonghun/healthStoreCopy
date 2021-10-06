@@ -33,13 +33,13 @@
        <div>
          <div class=" d-flex justify-content-center">
             <div class="detailImageBox d-flex">
-               <img src="#" class="product">
+             <c:forEach var="item" items="${detail}">
+               <img src="${imagePath=item.productId}" class="product">
                <div class="centerEmpty"></div>
-               <div class="detailBox ml-4">
-                
-                
-                 <div class="ml-3 mt-4 productName">딥스바 푸시업바</div><br><br>
-                 <div class="ml-4 mt-2 productPrice font-weight-bold text-danger">75,300원</div>
+               
+               <div class="detailBox ml-4">       
+                 <div class="ml-3 mt-4 productName">${productName=item.productId}</div><br><br>
+                 <div class="ml-4 mt-2 productPrice font-weight-bold text-danger">${price=item.productId}</div>
                 
                 
                  <hr>
@@ -56,10 +56,11 @@
                  <br><br>
                  
                  <div class="d-flex mt-4 ">
-                  <button type="submit" class="cartBtn btn-secondary mr-2">장바구니</button>
-                  <button type="submit" class="buyBtn text-white">구매하기</button>
+                  <button type="submit" class="cartBtn btn-secondary mr-2 form-control">장바구니</button>
+                  <button type="submit" class="buyBtn text-white form-control">구매하기</button>
                  </div>                 
-               </div>              
+               </div>
+              </c:forEach>               
              </div>                                               
          </div>
        </div><br>
