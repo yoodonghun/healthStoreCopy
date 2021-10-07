@@ -30,16 +30,16 @@
        </div>
        
       
-       <div>
+        <div>
          <div class=" d-flex justify-content-center">
             <div class="detailImageBox d-flex">
-             <c:forEach var="item" items="${detail}">
-               <img src="${imagePath=item.productId}" class="product">
+             
+               <img src="${detail.imagePath}" class="product">
                <div class="centerEmpty"></div>
                
                <div class="detailBox ml-4">       
-                 <div class="ml-3 mt-4 productName">${productName=item.productId}</div><br><br>
-                 <div class="ml-4 mt-2 productPrice font-weight-bold text-danger">${price=item.productId}</div>
+                 <div class="ml-3 mt-4 productName">${detail.productName}</div><br><br>
+                 <div class="ml-4 mt-2 productPrice font-weight-bold text-danger">${detail.price}원</div>
                 
                 
                  <hr>
@@ -50,17 +50,17 @@
                  
                  <div class="d-flex">
                     <div class="ml-2 font-weight-bold col-3">혜택</div>
-                    <div class="ml-2 col-9">5,000원 쿠폰 지급</div>
+                    <div class="ml-2 col-9">회원가입시 5,000원 쿠폰 지급</div>
                  </div><br><br><br><br><br>
                  <hr>
-                 <br><br>
+                 
                  
                  <div class="d-flex mt-4 ">
                   <button type="submit" class="cartBtn btn-secondary mr-2 form-control">장바구니</button>
                   <button type="submit" class="buyBtn text-white form-control">구매하기</button>
                  </div>                 
                </div>
-              </c:forEach>               
+                          
              </div>                                               
          </div>
        </div><br>
@@ -77,8 +77,21 @@
           <div class=" d-flex justify-content-center">
              <div class="reviewText justify-content-start">
                 <div>review</div>
-                <hr>
-                
+                                
+                <table class="table reviewText">
+                  <thead>
+                    <tr>
+                      <th>이름</th>
+                      <th>상품</th>
+                      <th>리뷰</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                     <tr></tr>
+                     <tr></tr>
+                     <tr></tr>
+                  </tbody>
+                </table>
              </div>
           </div>
        </div>  

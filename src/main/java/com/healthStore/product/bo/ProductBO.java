@@ -22,7 +22,7 @@ public class ProductBO {
 		return productDAO.selectProductDetail();
 	}
 	
-	public Product getDetail(Integer productId, String productName, int price, String imagePath) {
-		return productDAO.selectDetail(productId, productName, price, imagePath);
+	public Product getDetail(int productId) {
+		return productDAO.selectDetail(productId);
 	}
 }
